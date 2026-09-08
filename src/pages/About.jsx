@@ -26,10 +26,10 @@ export default function About() {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img src={ABOUT_IMAGE} alt="Investigator working at keyboard in dark room with blue light reflections" className="w-full h-full object-cover opacity-15" />
-          <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
+          <div className="absolute inset-0 bg-linear-to-b from-background via-background/95 to-background" />
         </div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="text-xs font-semibold uppercase tracking-widest text-primary mb-3 block">About Sentinel</span>
+          <span className="text-xs font-semibold uppercase tracking-widest text-primary mb-3 block">About FRAUD SHIELD</span>
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-6">The Investigation Team</h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             We are a specialized unit of forensic investigators, blockchain analysts, and legal professionals 

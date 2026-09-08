@@ -1,7 +1,7 @@
 import { serve } from 'https://deno.land/std@0.168.0/http/server.ts';
 
 const RESEND_API_KEY = Deno.env.get('RESEND_API_KEY');
-const FROM_EMAIL = 'Sentinel Fraud Recovery <onboarding@resend.dev>';
+const FROM_EMAIL = 'FRAUD SHIELD Fraud Recovery <onboarding@resend.dev>';
 
 serve(async (req) => {
   if (req.method === 'OPTIONS') {
@@ -25,7 +25,7 @@ serve(async (req) => {
       body: JSON.stringify({
         from: FROM_EMAIL,
         to,
-        subject: `Case Confirmation: ${case_id} — Sentinel Fraud Recovery`,
+        subject: `Case Confirmation: ${case_id} — FRAUD SHIELD Fraud Recovery`,
         html: `
           <!DOCTYPE html>
           <html>
@@ -42,7 +42,7 @@ serve(async (req) => {
                     <!-- Header -->
                     <tr>
                       <td style="padding:32px 40px 24px;border-bottom:1px solid rgba(148,163,184,0.08);">
-                        <p style="margin:0;font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#4f6bed;">Sentinel Fraud Recovery</p>
+                        <p style="margin:0;font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#4f6bed;">FRAUD SHIELD Fraud Recovery</p>
                         <h1 style="margin:8px 0 0;font-size:22px;font-weight:700;color:#f8fafc;">Case Successfully Filed</h1>
                       </td>
                     </tr>
@@ -118,7 +118,7 @@ serve(async (req) => {
                     <tr>
                       <td style="padding:20px 40px;border-top:1px solid rgba(148,163,184,0.08);">
                         <p style="margin:0;font-size:12px;color:#334155;text-align:center;">
-                          Sentinel Fraud Recovery — All communications are encrypted and confidential.
+                          FRAUD SHIELD Fraud Recovery — All communications are encrypted and confidential.
                         </p>
                       </td>
                     </tr>

@@ -25,7 +25,7 @@ export default function Navbar() {
               <Shield className="w-5 h-5 text-primary" />
             </div>
             <div>
-              <span className="text-sm font-bold tracking-tight text-foreground">SENTINEL</span>
+              <span className="text-sm font-bold tracking-tight text-foreground">FRAUD SHIELD</span>
               <span className="text-[10px] block -mt-1 text-muted-foreground tracking-widest uppercase">Investigations</span>
             </div>
           </Link>

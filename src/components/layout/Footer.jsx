@@ -14,7 +14,7 @@ export default function Footer() {
                 <Shield className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <span className="text-sm font-bold tracking-tight">SENTINEL</span>
+                <span className="text-sm font-bold tracking-tight">FRAUD SHIELD</span>
                 <span className="text-[10px] block -mt-1 text-muted-foreground tracking-widest uppercase">Investigations</span>
               </div>
             </div>
@@ -48,9 +48,9 @@ export default function Footer() {
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-4">Contact</h4>
             <div className="space-y-2.5">
-              <a href="mailto:info@sentinel-recovery.com" className="flex items-center gap-2 text-sm text-foreground/70 hover:text-primary transition-colors">
+              <a href="mailto:info@fraud-shield-recovery.com" className="flex items-center gap-2 text-sm text-foreground/70 hover:text-primary transition-colors">
                 <Mail className="w-3.5 h-3.5" />
-                info@sentinel-recovery.com
+                info@fraud-shield-recovery.com
               </a>
               <a href="tel:+18005551234" className="flex items-center gap-2 text-sm text-foreground/70 hover:text-primary transition-colors">
                 <Phone className="w-3.5 h-3.5" />
@@ -62,7 +62,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Sentinel Investigations. All rights reserved.
+            © {new Date().getFullYear()} Fraud Shield Investigations. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <span className="text-xs text-muted-foreground hover:text-foreground cursor-pointer transition-colors">Privacy Policy</span>

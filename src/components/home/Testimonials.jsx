@@ -4,7 +4,7 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    text: "After losing my retirement savings to an investment scam, I felt hopeless. Sentinel's team traced the funds within weeks and recovered 78% of my losses.",
+    text: "After losing my retirement savings to an investment scam, I felt hopeless. Fraud Shield's team traced the funds within weeks and recovered 78% of my losses.",
     author: "R.M.",
     detail: "Investment Fraud — $145,000 Recovered",
   },

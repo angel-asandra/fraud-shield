@@ -24,9 +24,9 @@ export default async function handler(req, res) {
   }
 
   const { error } = await resend.emails.send({
-    from: 'Sentinel Fraud Recovery <onboarding@resend.dev>',
+    from: 'Fraud Shield - Fraud Recovery <onboarding@resend.dev>',
     to,
-    subject: `Case Confirmation: ${case_id} — Sentinel Fraud Recovery`,
+    subject: `Case Confirmation: ${case_id} — Fraud Shield - Fraud Recovery`,
     html: buildEmailHtml({ full_name, case_id, scam_type, amount_lost, currency }),
   });
 
@@ -46,7 +46,7 @@ function buildEmailHtml({ full_name, case_id, scam_type, amount_lost, currency }
             <table width="560" cellpadding="0" cellspacing="0" style="background:#0a0d14;border:1px solid rgba(148,163,184,0.08);border-radius:12px;overflow:hidden;">
               <tr>
                 <td style="padding:32px 40px 24px;border-bottom:1px solid rgba(148,163,184,0.08);">
-                  <p style="margin:0;font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#4f6bed;">Sentinel Fraud Recovery</p>
+                  <p style="margin:0;font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#4f6bed;">Fraud Shield Fraud Recovery</p>
                   <h1 style="margin:8px 0 0;font-size:22px;font-weight:700;color:#f8fafc;">Case Successfully Filed</h1>
                 </td>
               </tr>
@@ -108,7 +108,7 @@ function buildEmailHtml({ full_name, case_id, scam_type, amount_lost, currency }
               <tr>
                 <td style="padding:20px 40px;border-top:1px solid rgba(148,163,184,0.08);">
                   <p style="margin:0;font-size:12px;color:#334155;text-align:center;">
-                    Sentinel Fraud Recovery — All communications are encrypted and confidential.
+                    Fraud Shield Fraud Recovery — All communications are encrypted and confidential.
                   </p>
                 </td>
               </tr>
